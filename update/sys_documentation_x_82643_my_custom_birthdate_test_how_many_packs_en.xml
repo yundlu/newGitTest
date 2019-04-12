@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="how_many_packs" label="How many packs?" language="en" table="x_82643_my_custom_birthdate_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>how_many_packs</element>
+            <help/>
+            <hint/>
+            <label>How many packs?</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <plural>How many packs?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-14 16:59:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1c160355db8b0300b11c771c8c96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>How many packs?</sys_name>
+            <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+            <sys_update_name>sys_documentation_x_82643_my_custom_birthdate_test_how_many_packs_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-14 16:59:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

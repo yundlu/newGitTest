@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_82643_my_custom.DisplayUserDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DisplayUserDetails</name>
+        <script><![CDATA[var DisplayUserDetails = Class.create();
+DisplayUserDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+getUserDetails : function() {
+		var UserRecord = new GlideRecord('sn_hr_core_profile');
+		UserRecord.addQuery('user', this.getParameter('sysparm_sys_id'));
+		UserRecord.query();
+		if(UserRecord.next()){
+			var userBday = UserRecord.getValue('date_of_birth');
+			var userBdaydt = new GlideDateTime();
+			userBdaydt.setDisplayValue(userBday);
+			var thresholdDate = this.getParameter('sysparm_threshold_date');
+			var thdt = new GlideDateTime();
+			thdt.setDisplayValue(thresholdDate);
+			var duration = GlideDateTime.subtract(thdt.getDisplayValue(), userBdaydt.getDisplayValue()).getDayPart();
+			if (duration >= 0)  {
+				var born = new GlideRecord('x_dnf_federal_hr_o_federal_onboarding_questionnaire');
+				born.addQuery('ref_user',this.getParameter('sysparm_sys_id'));
+				born.query();
+				while(born.next()){
+					born.setValue('born_in_1960', 'Yes');
+				}
+			}
+				//return 'yes';
+			
+			//else if (duration < 0)
+				//return 'no';
+		}
+		  
+	},
+	
+	type: 'DisplayUserDetails'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-05 05:48:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7ed51a1edb760300b11c771c8c9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DisplayUserDetails</sys_name>
+        <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+        <sys_update_name>sys_script_include_7ed51a1edb760300b11c771c8c9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-05 05:48:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

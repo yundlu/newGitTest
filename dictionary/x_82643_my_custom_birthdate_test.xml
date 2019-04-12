@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="birthdate test" max_length="40" name="x_82643_my_custom_birthdate_test" type="collection">
+        <element label="Are you a smoker?" max_length="40" name="are_you_a_smoker" type="boolean"/>
+        <element label="Birth Date" max_length="40" name="birth_date" type="glide_date"/>
+        <element choice="1" label="Born After 12/31/1959" max_length="40" name="born_in_1960" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Favorite Fruit" max_length="40" name="favorite_fruit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Orange" sequence="0" value="orange"/>
+                <element inactive_on_update="false" label="Apple" sequence="1" value="apple"/>
+                <element inactive_on_update="false" label="Grapes" sequence="2" value="grapes"/>
+                <element inactive_on_update="false" label="Kiwi" sequence="3" value="kiwi"/>
+            </choice>
+        </element>
+        <element label="How many packs?" max_length="2" name="how_many_packs" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="New Address" max_length="100" name="new_address" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

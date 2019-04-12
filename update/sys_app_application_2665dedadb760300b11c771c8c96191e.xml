@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>birthdate test</name>
+        <order>100</order>
+        <roles>x_82643_my_custom.birthdate_test_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-05 05:45:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2665dedadb760300b11c771c8c96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>birthdate test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+        <sys_update_name>sys_app_application_2665dedadb760300b11c771c8c96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-05 05:45:39</sys_updated_on>
+        <title>birthdate test</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

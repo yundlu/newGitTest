@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="born_in_1960" table="x_82643_my_custom_birthdate_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>born_in_1960</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-05 05:46:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0395561edb760300b11c771c8c9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-05 05:46:39</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>born_in_1960</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-05 05:46:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5aa59edadb760300b11c771c8c9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-05 05:46:52</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>born_in_1960</element>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-05 05:46:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9da5161edb760300b11c771c8c9619fc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>born_in_1960</sys_name>
+            <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+            <sys_update_name>sys_choice_x_82643_my_custom_birthdate_test_born_in_1960</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-05 05:46:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

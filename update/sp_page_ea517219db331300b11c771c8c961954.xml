@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>david_test</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 18:27:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea517219db331300b11c771c8c961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>david_test</sys_name>
+        <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+        <sys_update_name>sp_page_ea517219db331300b11c771c8c961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 18:27:54</sys_updated_on>
+        <title>David Test</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea517219db331300b11c771c8c961954"/>
+</record_update>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="favorite_fruit" table="x_82643_my_custom_birthdate_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>favorite_fruit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Orange</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 21:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>880f29cbdbcb0300b11c771c8c961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 21:09:09</sys_updated_on>
+            <value>orange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>favorite_fruit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 21:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>681f29cbdbcb0300b11c771c8c9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 21:09:23</sys_updated_on>
+            <value>apple</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>favorite_fruit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grapes</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 21:09:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a31f69cbdbcb0300b11c771c8c96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 21:09:38</sys_updated_on>
+            <value>grapes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>favorite_fruit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kiwi</label>
+            <language>en</language>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 21:09:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c83f69cbdbcb0300b11c771c8c961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 21:09:57</sys_updated_on>
+            <value>kiwi</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>favorite_fruit</element>
+            <name>x_82643_my_custom_birthdate_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-19 21:09:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d70f21cbdbcb0300b11c771c8c9619b8</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>favorite_fruit</sys_name>
+            <sys_package display_value="My Custom App" source="x_82643_my_custom">34159a9adb760300b11c771c8c96192c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="My Custom App">34159a9adb760300b11c771c8c96192c</sys_scope>
+            <sys_update_name>sys_choice_x_82643_my_custom_birthdate_test_favorite_fruit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-19 21:09:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
